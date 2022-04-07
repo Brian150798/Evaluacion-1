@@ -2,45 +2,41 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 body{
-    font-family: 'PT Sans', sans-serif;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: snow;
+    background-color: #fffafa;
 }
 
 .buscar{
-    position: absolute;
+    position: relative;
     padding: 5px;
 }
 .buscar input{
-<<<<<<< Updated upstream
     width: 0px;
-=======
-    width: 240px;
->>>>>>> Stashed changes
-    height: 40px;
+    height: 30px;
     padding: 0 20px;
     font-size: 18px;
     color: #000;
     outline: none;
-    border: 1px solid silver;
+    border: 1px solid #e6771c;
     border-radius: 30px;
-<<<<<<< Updated upstream
+
     transition: all 0.6s ease;
 }
 .btn{
     position: absolute;
     top: 0;
     right: 0;
-    background: black;
+    background: #000000;
     width: 55px;
     height: 55px;
     line-height: 55px;
     text-align: center;
-    color: wheat;
+    color: #f5deb3;
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
@@ -52,6 +48,110 @@ body{
 
 .buscar input:focus{
     width: 240px;
-=======
->>>>>>> Stashed changes
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-item{ 
+    width: 400px;
+    height: 400px;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+footer{
+    width: 100%;
+    background: #e6771c;
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p{
+    font: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 22px;
+}
+.row1{
+    margin-top: 20px;
+    display: flex;
+}
+.row1 img{
+    width: 36px;
+    height: 36px;
+}
+.row1 label{
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: -4px;
+    margin-left: 20px;
+    max-width: 150px;
+}
+.container-footer{
+    width: 100%;
+    background: #e6771c;
+}
+.copyright{
+    color: #C7C7C7;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.information a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
 }
