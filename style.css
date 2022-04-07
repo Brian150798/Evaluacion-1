@@ -5,7 +5,6 @@
 }
 body{
     font-family: 'PT Sans', sans-serif;
-
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -17,7 +16,7 @@ body{
     padding: 5px;
 }
 .buscar input{
-    width: 240px;
+    width: 0px;
     height: 40px;
     padding: 0 20px;
     font-size: 18px;
@@ -25,4 +24,27 @@ body{
     outline: none;
     border: 1px solid silver;
     border-radius: 30px;
+    transition: all 0.6s ease;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input{
+    width: 240px;
+}
+
+.buscar input:focus{
+    width: 240px;
 }
