@@ -10,7 +10,6 @@
     color: orange;
 }
 
-
 body{
     align-items: center;
     justify-content: center;
@@ -31,6 +30,7 @@ body{
     outline: none;
     border: 1px solid #e6771c;
     border-radius: 30px;
+
     transition: all 0.6s ease;
 }
 .btn{
