@@ -161,3 +161,22 @@ footer{
     justify-content: space-between;
     padding: 40px;
 }
+.barralateral{
+    position: absolute;
+    height: 145%;
+    width: 15%;
+    left: 0;
+    top: 20;
+    background-color: #e6771c;
+}
+.ventaproducto{
+    padding-left: 18%;
+}
+.filtros{
+    font-weight: bold;
+    text-align: center;
+}
+.separador{
+    padding-left: 5%;
+    padding-right: 5%;
+}
