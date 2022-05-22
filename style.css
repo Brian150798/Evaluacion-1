@@ -161,6 +161,10 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.arreglonav{
+    padding-bottom: 50%;
+}
+
 .barralateral{
     position: absolute;
     height: 145%;
