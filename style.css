@@ -142,6 +142,7 @@ footer{
     width: 100%;
     background: #e6771c;
 }
+
 .copyright{
     color: #C7C7C7;
 }
@@ -155,11 +156,10 @@ footer{
     color: #c7c7c7;
 }
 .footer{
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 40px;
 }
 .barralateral{
     position: absolute;
