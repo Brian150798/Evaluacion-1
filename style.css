@@ -156,13 +156,15 @@ footer{
     color: #c7c7c7;
 }
 .footer{
+    
     max-width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.arreglonav{
-    padding-bottom: 50%;
+.margen{
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .barralateral{
