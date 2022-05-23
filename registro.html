@@ -1,142 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!--META-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leal Pets</title>
-    <!--FONTAWESOME-->
-    <script src="https://kit.fontawesome.com/1542ca3da1.js" crossorigin="anonymous"></script>
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Registro</title>
+  <link rel="stylesheet" href="./style/ingreso.css">
 </head>
-
-<body> 
-  <!--Formulario-->
-  <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Correo</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Numeracion</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Vivienda</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">Region</label>
-          <select id="inputState" class="form-select">
-            <option selected>Elija su region</option>
-            <option>I Region</option>
-            <option>II Region</option>
-            <option>III Region</option>
-          </select>
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Comuna</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Recibir boletines al correo
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Iniciar sesion</button>
-        </div>
-      </form>
-<!--FOOTER-->
-<footer>
-  <div class="container-footer-all">
-          <div class="container-body">
-            <div class="colum1">
-              <h1>
-                Mas informacion de la compañia
-              </h1>
-                <p>
-                  Esta compañia se dedica a la venta de accesorios u indumentaria para mascotas, ahora ampliada hasta una pagina web!!
-                </p>
-            </div>
-  
-            <div class="colum2">
-              <h1>Redes sociales</h1>
-              <div class="row1">
-                <i class="fa-brands fa-facebook"></i>
-                <label>Siguenos en Facebook</label>
-              </div>
-              <div class="row1">
-                <i class="fa-brands fa-twitter"></i>
-                <label>Siguenos en Twitter</label>
-              </div>
-              <div class="row1">
-                <i class="fa-brands fa-instagram"></i>
-                <label>Siguenos en Instagram</label>
-              </div>
-              <div class="row1">
-                <i class="fa-brands fa-google-plus"></i>
-                <label>Siguenos en Google Plus</label>
-              </div>
-              <div class="row1">
-                <i class="fa-brands fa-pinterest"></i>
-                <label>Siguenos en Pinterest</label>
-              </div>
-            </div>
-  
-            <div class="colum3">
-              <h1>Informacion Contactos</h1>
-              <div class="row2">
-                <i class="fa-solid fa-house"></i>
-                <label>Padre Mariano 181, Providencia, Región Metropolitana</label>
-              </div>
-              <div class="row2">
-                <i class="fa-solid fa-phone"></i>
-                <label>+56-9-4074-7289</label>
-              </div>
-              <div class="row2">
-                <i class="fa-solid fa-envelope"></i>
-                <label>LealPetsParaTi@gmail.com</label>
-              </div>
-            </div>
-  
-          </div>
-          <div class="container-footer">
-              <div class="footer"></div>
-              <div>
-                <img src="./img/Logos/paypal.png" width="125px" height="125px">
-                <img src="./img/Logos/redcompra.png" width="125px" height="125px">
-                <img src="./img/Logos/visa.png" width="125px" height="125px">
-              </div>
-              <div class="copyright">
-                Copyright © 2021 Todos los derechos reservados <a href="">LealPets</a>
-              </div>
-              <div class="information">
-                <a href="">Informacion Compañia</a> | 
-                <a href="">Privacidad y Politica</a> |
-                <a href="">Terminos y Condiciones</a>
-              </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
+<body>
+  <div class="container">
+    <form action="" class="form" id="form" autocomplete="off">
+      <p class="form-titulo">Regístrate</p>
+      <div class="form-input myname">
+        <input type="text" id="myname">
+        <label for="myname">Nombre</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input surname">
+        <input type="text" id="surname">
+        <label for="surname">Apellidos</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input email">
+        <input type="email" id="email">
+        <label for="email">Correo electrónico</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input mobile">
+        <input type="text" id="mobile">
+        <label for="mobile">Celular</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input password">
+        <input type="password" id="password">
+        <label for="password">Contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input repeatPassword">
+        <input type="password" id="repeatPassword">
+        <label for="repeatPassword">Repetir Contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-termsAndConditions termsAndConditions">
+        <input type="checkbox" id="termsAndConditions">
+        <label for="termsAndConditions">He leído y acepto los </label>
+        <a href="#">Términos y Condiciones</a>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-boton" >
+        <input type="submit" value="Enviar">
+      </div>
+      <p class="mensajeCorrecto"></p>
+    </form>
+  </div>
+  <script src="./javascript/registro.js"></script>
 </body>
-
-
+</html>
