@@ -30,7 +30,7 @@
                             
                             let temp = Math.round(data.main.temp)
                             //console.log(temp)
-                            temperaturaValor.textContent = `${temp} ° F`
+                            temperaturaValor.textContent = `${temp-273.15} ° F`
             
                             //console.log(data.weather[0].description)
                             let desc = data.weather[0].description
