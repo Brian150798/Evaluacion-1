@@ -13,6 +13,11 @@ body {
     min-height: 90vh;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+  }
+
 .contenedor {
     background: #fff;
     border-radius: 2px;
@@ -87,4 +92,9 @@ body {
 .form-control.falla p {
     visibility: visible;
     color:#e74c3c;
+}
+
+.volver{
+
+    padding-bottom: 40%;
 }

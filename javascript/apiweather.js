@@ -34,7 +34,7 @@
             
                             //console.log(data.weather[0].description)
                             let desc = data.weather[0].description
-                            temperaturaDescripcion.textContent = desc.toUpperCase()
+                            //temperaturaDescripcion.textContent = desc.toUpperCase()
                             ubicacion.textContent = data.name
                             
                             vientoVelocidad.textContent = `${data.wind.speed} m/s`
