@@ -16,62 +16,46 @@
 
 <body>
     <!-- BARRA DE NAVEGACION -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light bordermenu">
       <div class="container">
         <a href="#" class="navbar-brand" style="color: orange;">
-          <h2>Leal Pets</h2>
-          <h6>La tienda de tus animales</h6>
+          <h2><a href="./index.html"><img src="./img/Logos/nuevo logo.PNG" width="180" height="80"></a></h2> 
         </a>
-
-        <button 
-          class="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navmenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item" style="padding-right: 250px;">
-                <div class="buscar nav item">
-                  <input type="text" placeholder="Buscar" required>
-                  <div class="btn">
-                    <i class="fas fa-search icon"></i>
-                  </div>
-            <li class="nav-item">
-              <a href="#learn" class="nav-link">
-                <i class="fa-solid fa-user"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#learn" class="nav-link">
-                <i class="fa-solid fa-cart-plus"></i>
-              </a>
-            </li>
-          </ul>
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item" style="padding-right: 250px;">
+                  <div class="buscar nav item">
+                    <input type="text" placeholder="Buscar" required>
+                    <div class="btn">
+                      <i class="fas fa-search icon"></i>
+                    </div>
+                <li class="nav-item">
+                  <a href="./ingreso.html" class="nav-link">
+                    <i class="fa-solid fa-user"></i>
+                  </a>
+                </li>        
+              <li class="nav-item">
+                <a href="#learn" class="nav-link">
+                  <i class="fa-solid fa-cart-plus"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./registro.html" class="nav-link">
+                  <i class="fa-solid fa-plus"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav> 
-
-    <!--Barra lateral de filtros-->
-    <nav class="barralateral">
-      <div class="filtros">
-        <div><h1>Filtros</h1></div>
-        <div>
-          <label><input type="checkbox">Correas</label>
-        </div>
-        <div>
-          <label><input type="checkbox">Comida</label>
-        </div>
-        <div>
-          <label><input type="checkbox">Cama</label>
-        </div>
-        <div>
-          <label><input type="checkbox">Juguetes</label>
-        </div>   
-      </div>
-    </nav>
+      </nav>
 
      <!--CARRUSEL-->
     <div class = container>
@@ -276,7 +260,6 @@
 
   <!--Footer-->
   <footer>
-
     <div class="container-footer-all">
       <div class="container-body">
         <div class="colum1">
@@ -330,16 +313,21 @@
 
       </div>
       <div class="container-footer">
-        <div class="footer"></div>
-        <div class="copyright">
-          Copyright © 2021 Todos los derechos reservados <a href="">LealPets</a>
+          <div class="footer"></div>
+          <div>
+            <img src="./img/Logos/paypal.png" width="125px" height="125px">
+            <img src="./img/Logos/redcompra.png" width="125px" height="125px">
+            <img src="./img/Logos/visa.png" width="125px" height="125px">
+          </div>
+          <div class="copyright">
+            Copyright © 2021 Todos los derechos reservados <a href="">LealPets</a>
+          </div>
+          <div class="information">
+            <a href="">Informacion Compañia</a> | 
+            <a href="">Privacidad y Politica</a> |
+            <a href="">Terminos y Condiciones</a>
+          </div>
         </div>
-        <div class="information">
-          <a href="">Informacion Compañia</a> | 
-          <a href="">Privacidad y Politica</a> |
-          <a href="">Terminos y Condiciones</a>
-        </div>
-      </div>
     </div>
   </div>
   </footer>
